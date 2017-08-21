@@ -13,7 +13,7 @@ ____________________________________
 
 * generate & optionally store in a file `SHA-512` password hashes. 
 
-* For the strongest possible hashes install `python-passlib` or `mkpasswd` from Debian (`debian-mkpasswd` in Arch / `mkpasswd` in Alpine) & configure the number of `ROUNDS` up to `999,999`. By default `ROUNDS` are `1,250,000` (compared to the SHA-512 default implementation of `5000 ROUNDS`). 
+* For the strongest possible hashes install `python-passlib` or `mkpasswd` from Debian (`debian-mkpasswd` in Arch / `mkpasswd` in Alpine) & configure the number of `ROUNDS` up to `999,999`. By default `ROUNDS` are `1,250,000` (compared to the `SHA-512` default implementation of `5000 ROUNDS`). 
 ```
 exim_genpass: Generate SHA512 hashed passwords [ in /etc/exim/passwd ]
 
